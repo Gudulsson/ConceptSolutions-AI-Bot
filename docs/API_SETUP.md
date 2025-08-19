@@ -61,8 +61,8 @@ nano .env
 3. Kopiera **Publishable key** och **Secret key**
 4. Lägg till i `.env`:
    ```
-   STRIPE_PUBLISHABLE_KEY=pk_test_xxxxxxxxxxxxxxxxxxxxxxxx
-   STRIPE_SECRET_KEY=sk_test_xxxxxxxxxxxxxxxxxxxxxxxx
+   STRIPE_PUBLISHABLE_KEY=pk_test_your_publishable_key_here
+   STRIPE_SECRET_KEY=sk_test_your_secret_key_here
    ```
 
 #### Klarna
