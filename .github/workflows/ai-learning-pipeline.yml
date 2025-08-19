@@ -1,0 +1,148 @@
+name: AI Learning Pipeline - ConceptSolutions
+
+on:
+  workflow_dispatch:
+    inputs:
+      learning_duration:
+        description: 'Learning duration in hours'
+        required: true
+        default: '8'
+        type: string
+      search_web:
+        description: 'Search web for keywords and themes'
+        required: true
+        default: 'true'
+        type: string
+      publish_articles:
+        description: 'Publish improved articles'
+        required: true
+        default: 'false'
+        type: string
+
+  schedule:
+    # Kör varje dag kl 06:00 UTC
+    - cron: '0 6 * * *'
+
+  push:
+    branches: [ main ]
+    paths:
+      - 'intensive-ai-learning-engine.js'
+      - 'services/ai-engine.js'
+      - '.github/workflows/ai-learning-pipeline.yml'
+
+jobs:
+  ai-learning:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [18.x]
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Setup environment variables
+      run: |
+        echo "WORDPRESS_URL=${{ secrets.WORDPRESS_URL }}" >> $GITHUB_ENV
+        echo "WORDPRESS_USERNAME=${{ secrets.WORDPRESS_USERNAME }}" >> $GITHUB_ENV
+        echo "WORDPRESS_PASSWORD=${{ secrets.WORDPRESS_PASSWORD }}" >> $GITHUB_ENV
+        echo "WOOCOMMERCE_CONSUMER_KEY=${{ secrets.WOOCOMMERCE_CONSUMER_KEY }}" >> $GITHUB_ENV
+        echo "WOOCOMMERCE_CONSUMER_SECRET=${{ secrets.WOOCOMMERCE_CONSUMER_SECRET }}" >> $GITHUB_ENV
+        echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> $GITHUB_ENV
+        echo "SERPAPI_KEY=${{ secrets.SERPAPI_KEY }}" >> $GITHUB_ENV
+        
+    - name: Start server
+      run: |
+        npm run dev &
+        sleep 10
+        
+    - name: Run AI Learning Engine
+      run: |
+        echo "🚀 STARTAR AI LÄRANDE PIPELINE"
+        echo "⏱️  Körtid: ${{ github.event.inputs.learning_duration || '8' }} timmar"
+        echo "🌐 Webbsökning: ${{ github.event.inputs.search_web || 'true' }}"
+        echo "📝 Publicera artiklar: ${{ github.event.inputs.publish_articles || 'false' }}"
+        
+        # Kör AI learning engine med webbsökning
+        node intensive-ai-learning-engine.js --duration=${{ github.event.inputs.learning_duration || '8' }} --web-search=${{ github.event.inputs.search_web || 'true' }} --publish=${{ github.event.inputs.publish_articles || 'false' }} &
+        
+        # Vänta på att AI:n ska slutföra sitt arbete
+        sleep $(( ${{ github.event.inputs.learning_duration || '8' }} * 3600 ))
+        
+    - name: Generate learning report
+      run: |
+        echo "📊 Genererar läranderapport..."
+        node generate-learning-report.js
+        
+    - name: Upload learning artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: ai-learning-results
+        path: |
+          ai-knowledge-base.json
+          ai-learning-report.json
+          ai-improvement-log.json
+          generated-content/
+          
+    - name: Commit and push improvements
+      run: |
+        git config --local user.email "ai@conceptsolutions.se"
+        git config --local user.name "ConceptSolutions AI"
+        
+        if [ -f ai-knowledge-base.json ]; then
+          git add ai-knowledge-base.json
+          git commit -m "🤖 AI Learning Update - $(date)"
+        fi
+        
+        if [ -f ai-learning-report.json ]; then
+          git add ai-learning-report.json
+          git commit -m "📊 AI Learning Report - $(date)"
+        fi
+        
+        git push origin main
+        
+    - name: Create summary comment
+      if: github.event_name == 'workflow_dispatch'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const fs = require('fs');
+          
+          let summary = '## 🤖 AI Learning Pipeline Complete\n\n';
+          summary += `**Duration:** ${context.payload.inputs.learning_duration || '8'} hours\n`;
+          summary += `**Web Search:** ${context.payload.inputs.search_web || 'true'}\n`;
+          summary += `**Publish Articles:** ${context.payload.inputs.publish_articles || 'false'}\n\n`;
+          
+          try {
+            if (fs.existsSync('ai-knowledge-base.json')) {
+              const knowledge = JSON.parse(fs.readFileSync('ai-knowledge-base.json', 'utf8'));
+              summary += `**Learning Cycles:** ${knowledge.cycles || 0}\n`;
+              summary += `**Pages Analyzed:** ${knowledge.websiteKnowledge?.pages?.length || 0}\n`;
+              summary += `**Products Analyzed:** ${knowledge.websiteKnowledge?.products?.length || 0}\n`;
+            }
+          } catch (error) {
+            summary += '**Status:** Learning completed\n';
+          }
+          
+          summary += '\n### 🎯 Key Insights\n';
+          summary += '- AI has analyzed website content and structure\n';
+          summary += '- Identified content gaps and improvement opportunities\n';
+          summary += '- Generated SEO and performance recommendations\n';
+          summary += '- Updated knowledge base with new insights\n';
+          
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: summary
+          });

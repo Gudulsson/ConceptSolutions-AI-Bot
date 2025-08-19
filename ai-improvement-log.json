@@ -1,0 +1,3879 @@
+[
+  {
+    "timestamp": "2025-08-19T13:32:21.453Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:32:54.113Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:33:26.849Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:33:59.558Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:34:32.309Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:35:05.045Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:35:37.395Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:36:10.069Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:36:42.641Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:37:15.423Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:37:48.019Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:38:08.913Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:38:20.571Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:38:41.680Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:38:53.282Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:39:14.287Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:39:26.030Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:39:48.135Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:39:58.928Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:40:20.761Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:40:31.482Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:40:52.224Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:41:04.040Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:41:24.945Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:41:36.621Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:41:57.539Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:42:09.353Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:42:30.052Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:42:42.235Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:43:02.612Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:43:14.771Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:43:34.939Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:43:47.373Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:44:07.539Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:44:20.029Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:44:40.172Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:44:52.637Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:45:12.958Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:45:25.578Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:45:45.841Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:45:58.110Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:46:18.581Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:46:30.878Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:46:51.321Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:47:03.572Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:47:23.875Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:47:36.242Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:47:56.559Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:48:08.838Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:48:29.442Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:48:41.544Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:49:02.261Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:49:14.003Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:49:34.971Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:49:48.920Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:50:07.855Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:50:21.520Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:50:40.559Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:50:54.113Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:51:13.252Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:51:26.704Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:51:45.919Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:51:59.347Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:52:18.673Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:52:32.058Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:52:51.325Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:53:05.098Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:53:23.848Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:53:37.845Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:53:54.918Z",
+    "improvements": [],
+    "summary": {
+      "totalImprovements": 0,
+      "highPriority": 0,
+      "mediumPriority": 0,
+      "estimatedImpact": "Medium"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:54:10.377Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:54:27.616Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:54:41.763Z",
+    "improvements": [],
+    "summary": {
+      "totalImprovements": 0,
+      "highPriority": 0,
+      "mediumPriority": 0,
+      "estimatedImpact": "Medium"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:55:01.377Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:55:15.136Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:55:34.877Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:55:49.545Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:56:08.473Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:56:23.649Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:56:41.306Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:56:57.296Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:57:14.803Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:57:29.967Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:57:48.207Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:58:02.725Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:58:21.774Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:58:35.286Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:58:54.372Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:59:07.840Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:59:27.103Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T13:59:40.578Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:00:00.839Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:00:13.639Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:00:34.014Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:00:47.808Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:01:06.966Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:01:20.469Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:01:39.816Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:01:53.324Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:02:12.498Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:02:27.599Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:02:46.519Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:03:00.283Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:03:19.308Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:03:33.074Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:03:51.942Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:04:05.604Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:04:24.522Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:04:38.151Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:04:57.006Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:05:10.626Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:05:30.058Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:05:43.166Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:06:02.611Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:06:15.620Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:06:35.231Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:06:48.037Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:07:07.817Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:07:20.567Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:07:40.280Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:07:53.153Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:08:12.902Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:08:25.772Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:08:45.466Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:08:58.177Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:09:18.024Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:09:31.826Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:09:50.583Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:10:04.644Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:10:23.077Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:10:37.206Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:10:55.569Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:11:09.867Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:11:28.677Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  },
+  {
+    "timestamp": "2025-08-19T14:11:43.668Z",
+    "improvements": [
+      {
+        "type": "content_structure",
+        "description": "Förbättra HTML-struktur med korrekta rubriker och stycken",
+        "implementation": "Uppdatera content generation för att använda korrekt HTML",
+        "priority": "high"
+      },
+      {
+        "type": "internal_linking",
+        "description": "Lägg till fler relevanta interna länkar",
+        "implementation": "Förbättra generateInternalLinks funktionen",
+        "priority": "medium"
+      },
+      {
+        "type": "content_length",
+        "description": "Öka innehållslängden till minst 800 ord",
+        "implementation": "Uppdatera generateSampleContent för att skapa längre innehåll",
+        "priority": "high"
+      }
+    ],
+    "summary": {
+      "totalImprovements": 3,
+      "highPriority": 2,
+      "mediumPriority": 1,
+      "estimatedImpact": "Hög"
+    }
+  }
+]
