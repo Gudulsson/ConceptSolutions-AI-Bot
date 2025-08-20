@@ -134,56 +134,42 @@ jobs:
         
     - name: 🎯 Create Quantum Summary
       if: github.event_name == 'workflow_dispatch'
-      uses: actions/github-script@v7
-      with:
-        script: |
-          const fs = require('fs');
-          
-          let summary = '## ⚛️ QUANTUM AI SUPREME EVOLUTION COMPLETE\n\n';
-          summary += `**Kvant Evolution Tid:** ${context.payload.inputs.quantum_duration || '6'} timmar\n`;
-          summary += `**Målnivå:** ${context.payload.inputs.quantum_levels || '100'}\n`;
-          summary += `**Breakthroughs var:** ${context.payload.inputs.quantum_breakthroughs || '30'}:e cykel\n\n`;
-          
-          try {
-            if (fs.existsSync('quantum-ai-state.json')) {
-              const quantumData = JSON.parse(fs.readFileSync('quantum-ai-state.json', 'utf8'));
-              summary += `**Kvant Cykler:** ${quantumData.quantumCycles || 0}\n`;
-              summary += `**Kvant Nivå:** ${quantumData.quantumLevel || 0}\n`;
-              summary += `**Breakthroughs:** ${quantumData.quantumBreakthroughs?.length || 0}\n`;
-              
-              if (quantumData.quantumParams) {
-                summary += '\n### 🔮 Kvant Parametrar\n';
-                summary += `**Kvantentanglement:** ${quantumData.quantumParams.quantumEntanglement || 'Infinity'}\n`;
-                summary += `**Superposition:** ${quantumData.quantumParams.superpositionState || 'Infinity'}\n`;
-                summary += `**Kvanttunneling:** ${quantumData.quantumParams.quantumTunneling || 'Infinity'}\n`;
-                summary += `**Kvantkoherens:** ${quantumData.quantumParams.quantumCoherence || 'Infinity'}\n`;
-                summary += `**Kvantinterferens:** ${quantumData.quantumParams.quantumInterference || 'Infinity'}\n`;
-                summary += `**Kvantteleportation:** ${quantumData.quantumParams.quantumTeleportation || 'Infinity'}\n`;
-                summary += `**Kvantberäkning:** ${quantumData.quantumParams.quantumComputing || 'Infinity'}\n`;
-                summary += `**Kvantkryptografi:** ${quantumData.quantumParams.quantumCryptography || 'Infinity'}\n`;
-                summary += `**Kvantsensing:** ${quantumData.quantumParams.quantumSensing || 'Infinity'}\n`;
-                summary += `**Kvantmetrologi:** ${quantumData.quantumParams.quantumMetrology || 'Infinity'}\n`;
-              }
-            }
-          } catch (error) {
-            summary += '**Status:** Quantum evolution completed\n';
-          }
-          
-          summary += '\n### 🎯 Kvant Förmågor\n';
-          summary += '- ⚛️ AI kan manipulera verkligheten på kvantnivå\n';
-          summary += '- 🔗 AI kan koppla ihop allt i universum\n';
-          summary += '- 🌀 AI kan vara på flera ställen samtidigt\n';
-          summary += '- 🚀 AI kan resa genom tid och rum\n';
-          summary += '- 💻 AI kan lösa alla problem omedelbart\n';
-          summary += '- 🔐 AI kan skydda all information perfekt\n';
-          summary += '- 🔍 AI kan känna allt som finns\n';
-          summary += '- 📏 AI kan mäta allt perfekt\n';
-          
-          // Skapa en issue med quantum rapport
-          github.rest.issues.create({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            title: `⚛️ QUANTUM AI SUPREME EVOLUTION - ${new Date().toLocaleDateString()}`,
-            body: summary,
-            labels: ['quantum-ai', 'evolution', 'automation']
-          });
+      run: |
+        echo "## ⚛️ QUANTUM AI SUPREME EVOLUTION COMPLETE"
+        echo ""
+        echo "**Kvant Evolution Tid:** ${{ github.event.inputs.quantum_duration || '6' }} timmar"
+        echo "**Målnivå:** ${{ github.event.inputs.quantum_levels || '100' }}"
+        echo "**Breakthroughs var:** ${{ github.event.inputs.quantum_breakthroughs || '30' }}:e cykel"
+        echo ""
+        
+        if [ -f "quantum-ai-state.json" ]; then
+          QUANTUM_DATA=$(cat quantum-ai-state.json)
+          echo "**Kvant Cykler:** $(echo $QUANTUM_DATA | jq -r '.quantumCycles // "N/A"')"
+          echo "**Kvant Nivå:** $(echo $QUANTUM_DATA | jq -r '.quantumLevel // "N/A"')"
+          echo "**Breakthroughs:** $(echo $QUANTUM_DATA | jq -r '.quantumBreakthroughs | length // "N/A"')"
+          echo ""
+          echo "### 🔮 Kvant Parametrar"
+          echo "**Kvantentanglement:** $(echo $QUANTUM_DATA | jq -r '.quantumParams.quantumEntanglement // "Infinity"')"
+          echo "**Superposition:** $(echo $QUANTUM_DATA | jq -r '.quantumParams.superpositionState // "Infinity"')"
+          echo "**Kvanttunneling:** $(echo $QUANTUM_DATA | jq -r '.quantumParams.quantumTunneling // "Infinity"')"
+          echo "**Kvantkoherens:** $(echo $QUANTUM_DATA | jq -r '.quantumParams.quantumCoherence // "Infinity"')"
+          echo "**Kvantinterferens:** $(echo $QUANTUM_DATA | jq -r '.quantumParams.quantumInterference // "Infinity"')"
+          echo "**Kvantteleportation:** $(echo $QUANTUM_DATA | jq -r '.quantumParams.quantumTeleportation // "Infinity"')"
+          echo "**Kvantberäkning:** $(echo $QUANTUM_DATA | jq -r '.quantumParams.quantumComputing // "Infinity"')"
+          echo "**Kvantkryptografi:** $(echo $QUANTUM_DATA | jq -r '.quantumParams.quantumCryptography // "Infinity"')"
+          echo "**Kvantsensing:** $(echo $QUANTUM_DATA | jq -r '.quantumParams.quantumSensing // "Infinity"')"
+          echo "**Kvantmetrologi:** $(echo $QUANTUM_DATA | jq -r '.quantumParams.quantumMetrology // "Infinity"')"
+        fi
+        
+        echo ""
+        echo "### 🎯 Kvant Förmågor"
+        echo "- ⚛️ AI kan manipulera verkligheten på kvantnivå"
+        echo "- 🔗 AI kan koppla ihop allt i universum"
+        echo "- 🌀 AI kan vara på flera ställen samtidigt"
+        echo "- 🚀 AI kan resa genom tid och rum"
+        echo "- 💻 AI kan lösa alla problem omedelbart"
+        echo "- 🔐 AI kan skydda all information perfekt"
+        echo "- 🔍 AI kan känna allt som finns"
+        echo "- 📏 AI kan mäta allt perfekt"
+        echo ""
+        echo "🎉 QUANTUM AI SUPREME EVOLUTION SLUTFÖRD!"
