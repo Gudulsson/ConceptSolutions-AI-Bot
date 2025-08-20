@@ -40,6 +40,7 @@
     "jsonwebtoken": "^9.0.2",
     "nodemailer": "^6.9.7",
     "redis": "^4.6.10",
+    "serpapi": "^1.0.0",
     "stripe": "^14.5.0",
     "winston": "^3.11.0",
     "woocommerce-api": "^1.5.0"

@@ -1,6 +1,6 @@
 /**
- * Generate Learning Report
- * Skapar en detaljerad rapport av AI:n lärande för GitHub Actions
+ * Generate Learning Report för AI Learning Engine
+ * Skapar en detaljerad rapport över AI:ns lärande
  */
 
 const fs = require('fs').promises;
@@ -8,300 +8,152 @@ const path = require('path');
 
 async function generateLearningReport() {
     try {
-        console.log('📊 Genererar AI Learning Report...');
+        console.log('📊 Genererar detaljerad läranderapport...');
         
-        // Läs kunskapsbasen
-        const knowledgeFile = path.join(__dirname, 'ai-knowledge-base.json');
-        const knowledgeData = await fs.readFile(knowledgeFile, 'utf8');
-        const knowledge = JSON.parse(knowledgeData);
+        // Läs in kunskapsbasen
+        let knowledgeBase = {};
+        try {
+            const knowledgeContent = await fs.readFile('ai-knowledge-base.json', 'utf8');
+            knowledgeBase = JSON.parse(knowledgeContent);
+        } catch (error) {
+            console.log('⚠️ Ingen kunskapsbas hittad, skapar tom rapport');
+        }
+        
+        // Läs in förbättringslogg
+        let improvementLog = [];
+        try {
+            const logContent = await fs.readFile('ai-improvement-log.json', 'utf8');
+            improvementLog = JSON.parse(logContent);
+        } catch (error) {
+            console.log('⚠️ Ingen förbättringslogg hittad');
+        }
         
         // Skapa detaljerad rapport
         const report = {
-            timestamp: new Date(),
+            generatedAt: new Date().toISOString(),
             summary: {
-                totalCycles: knowledge.cycles || 0,
-                pagesAnalyzed: knowledge.websiteKnowledge?.pages?.length || 0,
-                productsAnalyzed: knowledge.websiteKnowledge?.products?.length || 0,
-                webSearches: knowledge.websiteKnowledge?.webSearchResults?.length || 0,
-                contentPatterns: knowledge.websiteKnowledge?.contentPatterns?.length || 0,
-                seoInsights: knowledge.websiteKnowledge?.seoInsights?.length || 0
+                totalCycles: knowledgeBase.learningCycles || 0,
+                duration: knowledgeBase.lastUpdated ? 
+                    `${Math.round((new Date(knowledgeBase.lastUpdated) - new Date(knowledgeBase.startTime || knowledgeBase.lastUpdated)) / (1000 * 60 * 60))} timmar` : 
+                    'Okänd',
+                pagesAnalyzed: knowledgeBase.websiteKnowledge?.pages?.length || 0,
+                productsAnalyzed: knowledgeBase.websiteKnowledge?.products?.length || 0,
+                webSearches: knowledgeBase.websiteKnowledge?.webSearchResults?.length || 0,
+                contentSuggestions: knowledgeBase.websiteKnowledge?.improvements?.contentSuggestions?.length || 0,
+                seoRecommendations: knowledgeBase.websiteKnowledge?.seoInsights?.length || 0
             },
-            insights: {
-                contentGaps: extractContentGaps(knowledge),
-                seoOpportunities: extractSEOOpportunities(knowledge),
-                marketTrends: extractMarketTrends(knowledge),
-                keywordInsights: extractKeywordInsights(knowledge),
-                recommendations: knowledge.recommendations || []
-            },
-            performance: {
-                averageQuality: calculateAverageQuality(knowledge),
-                topPerformers: findTopPerformers(knowledge),
-                improvementAreas: findImprovementAreas(knowledge)
-            },
-            webSearchResults: extractWebSearchResults(knowledge),
-            nextSteps: generateNextSteps(knowledge)
+            keyInsights: knowledgeBase.websiteKnowledge?.insights || {},
+            recommendations: knowledgeBase.websiteKnowledge?.improvements || {},
+            webSearchResults: knowledgeBase.websiteKnowledge?.webSearchResults || [],
+            contentPatterns: knowledgeBase.websiteKnowledge?.contentPatterns || [],
+            improvementLog: improvementLog.slice(-10) // Senaste 10 loggar
         };
         
-        // Spara rapport
-        const reportFile = path.join(__dirname, 'ai-learning-report.json');
-        await fs.writeFile(reportFile, JSON.stringify(report, null, 2));
+        // Spara JSON rapport
+        await fs.writeFile('ai-learning-report.json', JSON.stringify(report, null, 2));
         
         // Skapa markdown rapport
-        const markdownReport = generateMarkdownReport(report);
-        const markdownFile = path.join(__dirname, 'AI-LEARNING-REPORT.md');
-        await fs.writeFile(markdownFile, markdownReport);
+        let markdownReport = `# 🤖 AI Learning Report - ConceptSolutions\n\n`;
+        markdownReport += `**Genererad:** ${new Date().toLocaleString('sv-SE')}\n`;
+        markdownReport += `**Lärandecykler:** ${report.summary.totalCycles}\n`;
+        markdownReport += `**Körtid:** ${report.summary.duration}\n\n`;
         
-        console.log('✅ AI Learning Report genererad!');
-        console.log('📄 JSON: ai-learning-report.json');
-        console.log('📝 Markdown: AI-LEARNING-REPORT.md');
+        markdownReport += `## 📊 Sammanfattning\n\n`;
+        markdownReport += `- **Sidor analyserade:** ${report.summary.pagesAnalyzed}\n`;
+        markdownReport += `- **Produkter analyserade:** ${report.summary.productsAnalyzed}\n`;
+        markdownReport += `- **Webbsökningar:** ${report.summary.webSearches}\n`;
+        markdownReport += `- **Innehållsförslag:** ${report.summary.contentSuggestions}\n`;
+        markdownReport += `- **SEO-rekommendationer:** ${report.summary.seoRecommendations}\n\n`;
         
-        return report;
+        // Lägg till rekommendationer
+        if (report.recommendations.contentSuggestions && report.recommendations.contentSuggestions.length > 0) {
+            markdownReport += `## 💡 Innehållsrekommendationer\n\n`;
+            report.recommendations.contentSuggestions.forEach((suggestion, index) => {
+                markdownReport += `${index + 1}. **${suggestion.topic}** (${suggestion.priority})\n`;
+                markdownReport += `   - ${suggestion.description}\n\n`;
+            });
+        }
+        
+        // Lägg till SEO-rekommendationer
+        if (report.recommendations.seoSuggestions && report.recommendations.seoSuggestions.length > 0) {
+            markdownReport += `## 🔍 SEO-rekommendationer\n\n`;
+            report.recommendations.seoSuggestions.forEach((suggestion, index) => {
+                markdownReport += `${index + 1}. **${suggestion.type}** (${suggestion.impact})\n`;
+                markdownReport += `   - ${suggestion.description}\n\n`;
+            });
+        }
+        
+        // Lägg till webbsökresultat
+        if (report.webSearchResults.length > 0) {
+            markdownReport += `## 🌐 Webbsökresultat\n\n`;
+            report.webSearchResults.slice(-5).forEach(search => {
+                markdownReport += `### ${search.keyword}\n`;
+                markdownReport += `**Sökt:** ${new Date(search.timestamp).toLocaleString('sv-SE')}\n`;
+                markdownReport += `**Resultat:** ${search.results.length} hittade\n\n`;
+                
+                if (search.results.length > 0) {
+                    markdownReport += `**Toppresultat:**\n`;
+                    search.results.slice(0, 3).forEach((result, index) => {
+                        markdownReport += `${index + 1}. [${result.title}](${result.link})\n`;
+                    });
+                    markdownReport += `\n`;
+                }
+            });
+        }
+        
+        // Lägg till insikter
+        if (report.keyInsights.keyFindings && report.keyInsights.keyFindings.length > 0) {
+            markdownReport += `## 🧠 Viktiga insikter\n\n`;
+            report.keyInsights.keyFindings.forEach((finding, index) => {
+                markdownReport += `${index + 1}. ${finding}\n`;
+            });
+            markdownReport += `\n`;
+        }
+        
+        // Lägg till trender
+        if (report.keyInsights.trends && report.keyInsights.trends.length > 0) {
+            markdownReport += `## 📈 Identifierade trender\n\n`;
+            report.keyInsights.trends.forEach(trend => {
+                markdownReport += `- **${trend.keyword}:** ${trend.resultCount} resultat\n`;
+            });
+            markdownReport += `\n`;
+        }
+        
+        markdownReport += `## 🎯 Nästa steg\n\n`;
+        markdownReport += `1. **Granska innehållsförslag** och implementera de mest lovande\n`;
+        markdownReport += `2. **Följ SEO-rekommendationer** för att förbättra sökmotorrankning\n`;
+        markdownReport += `3. **Analysera webbsökresultat** för att identifiera nya möjligheter\n`;
+        markdownReport += `4. **Kör AI Learning Pipeline igen** för kontinuerlig förbättring\n\n`;
+        
+        markdownReport += `---\n`;
+        markdownReport += `*Rapport genererad av ConceptSolutions AI Learning Engine*\n`;
+        
+        // Spara markdown rapport
+        await fs.writeFile('AI-LEARNING-REPORT.md', markdownReport);
+        
+        console.log('✅ Detaljerad rapport genererad:');
+        console.log('   - ai-learning-report.json');
+        console.log('   - AI-LEARNING-REPORT.md');
         
     } catch (error) {
         console.error('❌ Fel vid generering av rapport:', error.message);
-        return null;
+        
+        // Skapa enkel backup rapport
+        const backupReport = {
+            generatedAt: new Date().toISOString(),
+            error: error.message,
+            status: 'Rapportgenerering misslyckades'
+        };
+        
+        await fs.writeFile('ai-learning-report.json', JSON.stringify(backupReport, null, 2));
+        console.log('⚠️ Backup rapport skapad');
     }
 }
 
-function extractContentGaps(knowledge) {
-    const gaps = [];
-    
-    if (knowledge.websiteKnowledge?.contentPatterns) {
-        knowledge.websiteKnowledge.contentPatterns.forEach(pattern => {
-            if (pattern.contentGaps) {
-                gaps.push(...pattern.contentGaps);
-            }
-        });
-    }
-    
-    return [...new Set(gaps)].slice(0, 10);
-}
-
-function extractSEOOpportunities(knowledge) {
-    const opportunities = [];
-    
-    if (knowledge.websiteKnowledge?.seoInsights) {
-        knowledge.websiteKnowledge.seoInsights.forEach(insight => {
-            if (insight.averageMetaLength < 150) {
-                opportunities.push('Förbättra meta-beskrivningar');
-            }
-            if (insight.internalLinking < 5) {
-                opportunities.push('Lägg till fler interna länkar');
-            }
-            if (insight.imageOptimization < 2) {
-                opportunities.push('Optimera bilder med alt-text');
-            }
-        });
-    }
-    
-    return [...new Set(opportunities)];
-}
-
-function extractMarketTrends(knowledge) {
-    const trends = [];
-    
-    if (knowledge.websiteKnowledge?.webSearchResults) {
-        knowledge.websiteKnowledge.webSearchResults.forEach(result => {
-            if (result.insights?.trendingTopics) {
-                trends.push(...result.insights.trendingTopics);
-            }
-        });
-    }
-    
-    return [...new Set(trends)].slice(0, 10);
-}
-
-function extractKeywordInsights(knowledge) {
-    const insights = [];
-    
-    if (knowledge.websiteKnowledge?.webSearchResults) {
-        knowledge.websiteKnowledge.webSearchResults.forEach(result => {
-            if (result.insights?.highVolumeKeywords) {
-                insights.push(...result.insights.highVolumeKeywords);
-            }
-            if (result.insights?.lowCompetitionOpportunities) {
-                insights.push(...result.insights.lowCompetitionOpportunities);
-            }
-        });
-    }
-    
-    return [...new Set(insights)].slice(0, 15);
-}
-
-function extractWebSearchResults(knowledge) {
-    const results = [];
-    
-    if (knowledge.websiteKnowledge?.webSearchResults) {
-        knowledge.websiteKnowledge.webSearchResults.forEach(result => {
-            if (result.searches) {
-                results.push(...result.searches.map(search => ({
-                    keyword: search.keyword,
-                    searchVolume: search.searchVolume,
-                    competition: search.competition,
-                    relatedKeywords: search.relatedKeywords?.slice(0, 5) || []
-                })));
-            }
-        });
-    }
-    
-    return results.slice(0, 20);
-}
-
-function calculateAverageQuality(knowledge) {
-    let totalQuality = 0;
-    let count = 0;
-    
-    if (knowledge.websiteKnowledge?.contentPatterns) {
-        knowledge.websiteKnowledge.contentPatterns.forEach(pattern => {
-            if (pattern.qualityMetrics) {
-                pattern.qualityMetrics.forEach(metric => {
-                    totalQuality += metric.overallScore || 0;
-                    count++;
-                });
-            }
-        });
-    }
-    
-    return count > 0 ? Math.round((totalQuality / count) * 100) : 0;
-}
-
-function findTopPerformers(knowledge) {
-    const performers = [];
-    
-    if (knowledge.websiteKnowledge?.contentPatterns) {
-        knowledge.websiteKnowledge.contentPatterns.forEach(pattern => {
-            if (pattern.topPerformers) {
-                performers.push(...pattern.topPerformers);
-            }
-        });
-    }
-    
-    return performers
-        .sort((a, b) => (b.score || 0) - (a.score || 0))
-        .slice(0, 5);
-}
-
-function findImprovementAreas(knowledge) {
-    const areas = [];
-    
-    if (knowledge.websiteKnowledge?.contentPatterns) {
-        knowledge.websiteKnowledge.contentPatterns.forEach(pattern => {
-            if (pattern.improvementAreas) {
-                areas.push(...pattern.improvementAreas);
-            }
-        });
-    }
-    
-    return areas.slice(0, 5);
-}
-
-function generateNextSteps(knowledge) {
-    const steps = [
-        'Skapa innehåll om identifierade innehållsgap',
-        'Optimera SEO för befintliga artiklar',
-        'Implementera förbättringar baserat på webbsökning',
-        'Fokusera på högvolym nyckelord med låg konkurrens',
-        'Utveckla mer engagerande innehåll'
-    ];
-    
-    // Lägg till specifika steg baserat på insikter
-    if (knowledge.websiteKnowledge?.webSearchResults?.length > 0) {
-        steps.push('Skapa innehåll baserat på webbsökning');
-    }
-    
-    if (knowledge.websiteKnowledge?.seoInsights?.length > 0) {
-        steps.push('Förbättra meta-beskrivningar och interna länkar');
-    }
-    
-    return steps;
-}
-
-function generateMarkdownReport(report) {
-    return `# 🤖 AI Learning Report - ConceptSolutions
-
-**Genererad:** ${report.timestamp.toLocaleString('sv-SE')}
-
----
-
-## 📊 Sammanfattning
-
-AI:n har analyserat ConceptSolutions hemsida och genererat följande insikter:
-
-- **Totala cykler:** ${report.summary.totalCycles}
-- **Sidor analyserade:** ${report.summary.pagesAnalyzed}
-- **Produkter analyserade:** ${report.summary.productsAnalyzed}
-- **Webbsökningar:** ${report.summary.webSearches}
-- **Innehållsmönster:** ${report.summary.contentPatterns}
-- **SEO-insikter:** ${report.summary.seoInsights}
-
----
-
-## 🎯 Huvudinsikter
-
-### Innehållsgap
-${report.insights.contentGaps.map(gap => `- ${gap}`).join('\n')}
-
-### SEO-möjligheter
-${report.insights.seoOpportunities.map(opp => `- ${opp}`).join('\n')}
-
-### Marknadstrender
-${report.insights.marketTrends.map(trend => `- ${trend}`).join('\n')}
-
-### Nyckelordsinsikter
-${report.insights.keywordInsights.map(keyword => `- ${keyword}`).join('\n')}
-
----
-
-## 📈 Prestanda
-
-- **Genomsnittlig kvalitet:** ${report.performance.averageQuality}/100
-- **Toppartiklar:** ${report.performance.topPerformers.length} st
-- **Förbättringsområden:** ${report.performance.improvementAreas.length} st
-
-### Toppartiklar
-${report.performance.topPerformers.map(performer => `- ${performer.title} (${Math.round((performer.score || 0) * 100)}%)`).join('\n')}
-
-### Förbättringsområden
-${report.performance.improvementAreas.map(area => `- ${area.title}`).join('\n')}
-
----
-
-## 🌐 Webbsökning Resultat
-
-### Högvolym Nyckelord
-${report.webSearchResults
-    .filter(result => result.searchVolume > 5000)
-    .map(result => `- ${result.keyword} (${result.searchVolume} sökningar/månad)`)
-    .join('\n')}
-
-### Låg Konkurrens Möjligheter
-${report.webSearchResults
-    .filter(result => result.competition < 0.3)
-    .map(result => `- ${result.keyword} (${Math.round(result.competition * 100)}% konkurrens)`)
-    .join('\n')}
-
----
-
-## 🚀 Nästa Steg
-
-${report.nextSteps.map((step, index) => `${index + 1}. ${step}`).join('\n')}
-
----
-
-## 💡 Rekommendationer
-
-${report.insights.recommendations.map(rec => `- ${rec}`).join('\n')}
-
----
-
-**Rapport genererad av:** ConceptSolutions AI Learning Engine  
-**Nästa uppdatering:** Automatisk via GitHub Actions
-`;
-}
-
-// Kör om filen körs direkt
+// Kör rapportgenerator om filen körs direkt
 if (require.main === module) {
-    generateLearningReport().catch(console.error);
+    generateLearningReport();
 }
 
-module.exports = { generateLearningReport };
+module.exports = generateLearningReport;
+

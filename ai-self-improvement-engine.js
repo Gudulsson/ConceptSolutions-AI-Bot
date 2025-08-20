@@ -1,6 +1,6 @@
 /**
  * AI Self-Improvement Engine för ConceptSolutions
- * Kontinuerlig analys och förbättring av AI-modellens innehållsgenerering
+ * Optimerad för GitHub Actions - standalone utan localhost beroenden
  */
 
 const axios = require('axios');
@@ -8,855 +8,716 @@ const fs = require('fs').promises;
 const path = require('path');
 
 class AISelfImprovementEngine {
-    constructor() {
-        this.apiBaseUrl = 'http://localhost:3000/api';
-        this.improvementLog = [];
-        this.analysisResults = [];
-        this.contentQualityMetrics = {
-            wordCount: { min: 800, optimal: 1200, max: 2000 },
-            readability: { min: 60, optimal: 75, max: 90 },
-            seoScore: { min: 70, optimal: 85, max: 95 },
-            internalLinks: { min: 3, optimal: 5, max: 8 },
-            structure: { min: 0.7, optimal: 0.85, max: 0.95 }
+    constructor(options = {}) {
+        this.learningLog = [];
+        this.websiteKnowledge = {
+            pages: [],
+            products: [],
+            categories: [],
+            tags: [],
+            contentPatterns: [],
+            seoInsights: [],
+            userBehavior: [],
+            marketTrends: [],
+            webSearchResults: [],
+            keywordInsights: []
         };
+        this.learningCycles = 0;
+        this.startTime = new Date();
+        this.isRunning = false;
+        
+        // Konfiguration från kommandoradsargument
+        this.duration = options.duration || 4; // timmar (GitHub Actions max 6h)
+        this.webSearch = options.webSearch !== false;
+        this.publishArticles = options.publishArticles || false;
+        
+        // WordPress API konfiguration från miljövariabler
+        this.wordpressUrl = process.env.WORDPRESS_URL;
+        this.wordpressUsername = process.env.WORDPRESS_USERNAME;
+        this.wordpressPassword = process.env.WORDPRESS_PASSWORD;
+        this.woocommerceKey = process.env.WOOCOMMERCE_CONSUMER_KEY;
+        this.woocommerceSecret = process.env.WOOCOMMERCE_CONSUMER_SECRET;
+        this.openaiKey = process.env.OPENAI_API_KEY;
+        this.serpapiKey = process.env.SERPAPI_KEY;
+        
+        this.searchKeywords = [
+            'AI RFID solutions',
+            'RFID technology trends 2025',
+            'e-commerce automation',
+            'digital transformation RFID',
+            'IoT RFID applications',
+            'machine learning RFID',
+            'RFID inventory management',
+            'AI business solutions',
+            'RFID security systems',
+            'automation technology trends'
+        ];
     }
 
     async startSelfImprovementMode() {
-        console.log('🚀 Startar AI Självförbättringsläge...');
-        console.log('📊 Kontinuerlig analys och optimering av innehållsgenerering');
+        this.isRunning = true;
+        console.log('🚀 STARTAR AI SJÄLVFÖRBÄTTRING MOTOR');
+        console.log('=' .repeat(60));
+        console.log(`⏱️  Körtid: ${this.duration} timmar`);
+        console.log(`🌐 Webbsökning: ${this.webSearch ? 'AKTIV' : 'INAKTIV'}`);
+        console.log(`📝 Publicera artiklar: ${this.publishArticles ? 'AKTIV' : 'INAKTIV'}`);
+        console.log('AI:n kommer nu att arbeta kontinuerligt och lära sig allt om ConceptSolutions');
+        console.log('Tryck Ctrl+C för att stoppa\n');
         
-        while (true) {
+        const endTime = new Date(this.startTime.getTime() + (this.duration * 60 * 60 * 1000));
+        
+        while (this.isRunning && new Date() < endTime) {
             try {
-                await this.runImprovementCycle();
+                await this.runIntensiveLearningCycle();
+                this.learningCycles++;
+                
+                // Visa progress var 5:e cykel
+                if (this.learningCycles % 5 === 0) {
+                    this.showProgress();
+                }
+                
+                // Kortare paus för intensivt lärande
                 await this.sleep(30000); // 30 sekunder mellan cykler
+                
             } catch (error) {
-                console.error('❌ Fel i förbättringscykel:', error.message);
+                console.error('❌ Fel i lärandecykel:', error.message);
                 await this.sleep(10000); // Kortare paus vid fel
             }
         }
+        
+        console.log(`\n⏰ Körtid på ${this.duration} timmar slutförd!`);
+        await this.generateFinalReport();
     }
 
-    async runImprovementCycle() {
-        console.log('\n🔄 Kör förbättringscykel...');
+    async runIntensiveLearningCycle() {
+        console.log(`🔄 Lärandecykel ${this.learningCycles + 1} - ${new Date().toLocaleTimeString()}`);
         
-        // 1. Analysera befintligt innehåll
-        const contentAnalysis = await this.analyzeExistingContent();
+        // 1. Lär dig från hemsidans struktur
+        await this.learnWebsiteStructure();
         
-        // 2. Identifiera förbättringsområden
-        const improvementAreas = await this.identifyImprovementAreas(contentAnalysis);
+        // 2. Analysera befintligt innehåll
+        await this.analyzeExistingContent();
         
-        // 3. Generera förbättringsförslag
-        const improvements = await this.generateImprovementSuggestions(improvementAreas);
+        // 3. Lär dig från produkter och tjänster
+        await this.learnFromProducts();
         
-        // 4. Testa förbättringar
-        await this.testImprovements(improvements);
+        // 4. Analysera SEO och prestanda
+        await this.analyzeSEOAndPerformance();
         
-        // 5. Uppdatera AI-modellen
-        await this.updateAIModel(improvements);
+        // 5. Webbsökning för sökord och teman (var 3:e cykel)
+        if (this.webSearch && this.learningCycles % 3 === 0) {
+            await this.searchWebForKeywords();
+        }
         
-        // 6. Logga resultat
-        await this.logImprovementResults(improvements);
+        // 6. Identifiera förbättringsmöjligheter
+        await this.identifyImprovementOpportunities();
+        
+        // 7. Skapa och testa förbättringar
+        await this.createAndTestImprovements();
+        
+        // 8. Generera förbättrat innehåll (var 5:e cykel)
+        if (this.learningCycles % 5 === 0) {
+            await this.generateImprovedContent();
+        }
+        
+        // 9. Uppdatera kunskapsbasen
+        await this.updateKnowledgeBase();
+        
+        // 10. Generera insikter
+        await this.generateInsights();
+    }
+
+    async learnWebsiteStructure() {
+        try {
+            console.log('📚 Lär dig från hemsidans struktur...');
+            
+            // Hämta sidor från WordPress
+            const pagesResponse = await axios.get(`${this.wordpressUrl}/wp-json/wp/v2/pages`, {
+                auth: {
+                    username: this.wordpressUsername,
+                    password: this.wordpressPassword
+                },
+                params: {
+                    per_page: 100,
+                    status: 'publish'
+                }
+            });
+            
+            this.websiteKnowledge.pages = pagesResponse.data.map(page => ({
+                id: page.id,
+                title: page.title.rendered,
+                slug: page.slug,
+                content: page.content.rendered,
+                excerpt: page.excerpt.rendered,
+                date: page.date,
+                modified: page.modified,
+                link: page.link
+            }));
+            
+            console.log(`✅ Lärde sig från ${this.websiteKnowledge.pages.length} sidor`);
+            
+        } catch (error) {
+            console.error('❌ Fel vid lärande av hemsidans struktur:', error.message);
+        }
     }
 
     async analyzeExistingContent() {
-        console.log('📖 Analyserar befintligt innehåll...');
-        
         try {
-            // Hämta alla artiklar
-            const publishedPosts = await this.fetchPosts('publish');
-            const draftPosts = await this.fetchPosts('draft');
+            console.log('📊 Analyserar befintligt innehåll...');
             
-            const analysis = {
-                totalArticles: publishedPosts.length + draftPosts.length,
-                publishedArticles: publishedPosts.length,
-                draftArticles: draftPosts.length,
-                qualityMetrics: [],
-                issues: [],
-                strengths: []
+            // Hämta blogginlägg från WordPress
+            const postsResponse = await axios.get(`${this.wordpressUrl}/wp-json/wp/v2/posts`, {
+                auth: {
+                    username: this.wordpressUsername,
+                    password: this.wordpressPassword
+                },
+                params: {
+                    per_page: 100,
+                    status: 'publish'
+                }
+            });
+            
+            const posts = postsResponse.data;
+            
+            // Analysera innehållsmönster
+            const contentPatterns = {
+                averageLength: 0,
+                commonTopics: [],
+                seoKeywords: [],
+                internalLinks: [],
+                externalLinks: []
             };
-
-            // Analysera varje artikel
-            for (const post of [...publishedPosts, ...draftPosts]) {
-                const metrics = await this.analyzeArticleQuality(post);
-                analysis.qualityMetrics.push(metrics);
+            
+            let totalLength = 0;
+            const topics = {};
+            
+            posts.forEach(post => {
+                const content = post.content.rendered;
+                totalLength += content.length;
                 
-                if (metrics.overallScore < 0.6) {
-                    analysis.issues.push({
-                        postId: post.id,
-                        title: post.title.rendered,
-                        issues: metrics.issues
-                    });
-                } else if (metrics.overallScore > 0.8) {
-                    analysis.strengths.push({
-                        postId: post.id,
-                        title: post.title.rendered,
-                        strengths: metrics.strengths
+                // Extrahera nyckelord från titel och innehåll
+                const words = (post.title.rendered + ' ' + content)
+                    .toLowerCase()
+                    .replace(/<[^>]*>/g, '')
+                    .split(/\s+/)
+                    .filter(word => word.length > 3);
+                
+                words.forEach(word => {
+                    topics[word] = (topics[word] || 0) + 1;
+                });
+            });
+            
+            contentPatterns.averageLength = totalLength / posts.length;
+            contentPatterns.commonTopics = Object.entries(topics)
+                .sort(([,a], [,b]) => b - a)
+                .slice(0, 20)
+                .map(([topic, count]) => ({ topic, count }));
+            
+            this.websiteKnowledge.contentPatterns.push(contentPatterns);
+            console.log(`✅ Analyserade ${posts.length} blogginlägg`);
+            
+        } catch (error) {
+            console.error('❌ Fel vid analys av befintligt innehåll:', error.message);
+        }
+    }
+
+    async learnFromProducts() {
+        try {
+            console.log('🛍️ Lär dig från produkter och tjänster...');
+            
+            // Hämta produkter från WooCommerce
+            const productsResponse = await axios.get(`${this.wordpressUrl}/wp-json/wc/v3/products`, {
+                auth: {
+                    username: this.woocommerceKey,
+                    password: this.woocommerceSecret
+                },
+                params: {
+                    per_page: 100,
+                    status: 'publish'
+                }
+            });
+            
+            this.websiteKnowledge.products = productsResponse.data.map(product => ({
+                id: product.id,
+                name: product.name,
+                slug: product.slug,
+                description: product.description,
+                short_description: product.short_description,
+                price: product.price,
+                regular_price: product.regular_price,
+                sale_price: product.sale_price,
+                categories: product.categories,
+                tags: product.tags,
+                images: product.images,
+                status: product.status
+            }));
+            
+            console.log(`✅ Lärde sig från ${this.websiteKnowledge.products.length} produkter`);
+            
+        } catch (error) {
+            console.error('❌ Fel vid lärande från produkter:', error.message);
+        }
+    }
+
+    async analyzeSEOAndPerformance() {
+        try {
+            console.log('🔍 Analyserar SEO och prestanda...');
+            
+            const seoInsights = {
+                timestamp: new Date().toISOString(),
+                pagesAnalyzed: this.websiteKnowledge.pages.length,
+                productsAnalyzed: this.websiteKnowledge.products.length,
+                recommendations: []
+            };
+            
+            // Analysera sidor för SEO
+            this.websiteKnowledge.pages.forEach(page => {
+                const content = page.content;
+                const title = page.title;
+                
+                // Kontrollera meta beskrivningar
+                if (!content.includes('meta name="description"')) {
+                    seoInsights.recommendations.push({
+                        type: 'meta_description',
+                        page: page.title,
+                        suggestion: 'Lägg till meta beskrivning för bättre SEO'
                     });
                 }
-            }
-
-            return analysis;
+                
+                // Kontrollera rubriker
+                if (!content.includes('<h1>') && !content.includes('<h2>')) {
+                    seoInsights.recommendations.push({
+                        type: 'headings',
+                        page: page.title,
+                        suggestion: 'Lägg till H1 och H2 rubriker för bättre struktur'
+                    });
+                }
+            });
+            
+            this.websiteKnowledge.seoInsights.push(seoInsights);
+            console.log(`✅ Genererade ${seoInsights.recommendations.length} SEO-rekommendationer`);
+            
         } catch (error) {
-            console.error('❌ Fel vid innehållsanalys:', error.message);
-            return null;
+            console.error('❌ Fel vid SEO-analys:', error.message);
         }
     }
 
-    async analyzeArticleQuality(post) {
-        const content = post.content.rendered;
-        const title = post.title.rendered;
-        
-        // Räkna ord
-        const wordCount = this.countWords(content);
-        
-        // Analysera läsbarhet
-        const readability = this.calculateReadability(content);
-        
-        // Analysera SEO
-        const seoScore = this.analyzeSEO(content, title);
-        
-        // Analysera struktur
-        const structure = this.analyzeStructure(content);
-        
-        // Analysera interna länkar
-        const internalLinks = this.countInternalLinks(content);
-        
-        // Beräkna total poäng
-        const overallScore = this.calculateOverallScore({
-            wordCount,
-            readability,
-            seoScore,
-            structure,
-            internalLinks
-        });
-
-        // Identifiera problem
-        const issues = this.identifyIssues({
-            wordCount,
-            readability,
-            seoScore,
-            structure,
-            internalLinks
-        });
-
-        // Identifiera styrkor
-        const strengths = this.identifyStrengths({
-            wordCount,
-            readability,
-            seoScore,
-            structure,
-            internalLinks
-        });
-
-        return {
-            postId: post.id,
-            title,
-            wordCount,
-            readability,
-            seoScore,
-            structure,
-            internalLinks,
-            overallScore,
-            issues,
-            strengths
-        };
-    }
-
-    countWords(text) {
-        // Ta bort HTML-taggar och räkna ord
-        const cleanText = text.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
-        return cleanText.split(' ').length;
-    }
-
-    calculateReadability(text) {
-        // Flesch Reading Ease för svenska (förenklad version)
-        const sentences = text.split(/[.!?]+/).length;
-        const words = this.countWords(text);
-        const syllables = this.countSyllables(text);
-        
-        if (sentences === 0 || words === 0) return 0;
-        
-        const score = 206.835 - (1.015 * (words / sentences)) - (84.6 * (syllables / words));
-        return Math.max(0, Math.min(100, score));
-    }
-
-    countSyllables(text) {
-        // Förenklad räkning av stavelser för svenska
-        const vowels = text.match(/[aeiouyåäö]/gi);
-        return vowels ? vowels.length : 0;
-    }
-
-    analyzeSEO(content, title) {
-        let score = 0;
-        const checks = [];
-
-        // Kontrollera titellängd
-        if (title.length >= 30 && title.length <= 60) {
-            score += 20;
-            checks.push('Titellängd optimal');
-        } else {
-            checks.push('Titellängd behöver justeras');
-        }
-
-        // Kontrollera H1-H6 struktur
-        const headings = content.match(/<h[1-6][^>]*>/gi);
-        if (headings && headings.length >= 2) {
-            score += 20;
-            checks.push('Rubrikstruktur bra');
-        } else {
-            checks.push('Rubrikstruktur behöver förbättras');
-        }
-
-        // Kontrollera interna länkar
-        const links = content.match(/<a[^>]*href[^>]*>/gi);
-        if (links && links.length >= 3) {
-            score += 20;
-            checks.push('Interna länkar tillräckliga');
-        } else {
-            checks.push('Fler interna länkar behövs');
-        }
-
-        // Kontrollera bilder med alt-text
-        const images = content.match(/<img[^>]*>/gi);
-        const imagesWithAlt = content.match(/<img[^>]*alt[^>]*>/gi);
-        if (images && imagesWithAlt && imagesWithAlt.length >= images.length * 0.8) {
-            score += 20;
-            checks.push('Bilder har alt-text');
-        } else {
-            checks.push('Bilder saknar alt-text');
-        }
-
-        // Kontrollera innehållslängd
-        if (this.countWords(content) >= 800) {
-            score += 20;
-            checks.push('Innehållslängd tillräcklig');
-        } else {
-            checks.push('Innehållslängd för kort');
-        }
-
-        return { score, checks };
-    }
-
-    analyzeStructure(content) {
-        let score = 0;
-        const issues = [];
-
-        // Kontrollera HTML-struktur
-        if (content.includes('<h1>') || content.includes('<h2>')) {
-            score += 0.3;
-        } else {
-            issues.push('Saknar huvudrubriker');
-        }
-
-        if (content.includes('<p>')) {
-            score += 0.2;
-        } else {
-            issues.push('Saknar stycken');
-        }
-
-        if (content.includes('<ul>') || content.includes('<ol>')) {
-            score += 0.2;
-        } else {
-            issues.push('Saknar listor');
-        }
-
-        if (content.includes('<strong>') || content.includes('<em>')) {
-            score += 0.2;
-        } else {
-            issues.push('Saknar betoning');
-        }
-
-        if (!content.includes('&lt;') && !content.includes('&gt;')) {
-            score += 0.1;
-        } else {
-            issues.push('Innehåller HTML-kod som ska visas');
-        }
-
-        return { score, issues };
-    }
-
-    countInternalLinks(content) {
-        const links = content.match(/<a[^>]*href[^>]*>/gi);
-        if (!links) return 0;
-        
-        let internalCount = 0;
-        links.forEach(link => {
-            if (link.includes('conceptsolutions.se') || link.includes('/produkt/') || link.includes('/tjanster/')) {
-                internalCount++;
-            }
-        });
-        
-        return internalCount;
-    }
-
-    calculateOverallScore(metrics) {
-        const weights = {
-            wordCount: 0.2,
-            readability: 0.2,
-            seoScore: 0.3,
-            structure: 0.2,
-            internalLinks: 0.1
-        };
-
-        let score = 0;
-        
-        // Word count score
-        const wordCountScore = Math.min(1, metrics.wordCount / this.contentQualityMetrics.wordCount.optimal);
-        score += wordCountScore * weights.wordCount;
-        
-        // Readability score
-        const readabilityScore = metrics.readability / 100;
-        score += readabilityScore * weights.readability;
-        
-        // SEO score
-        const seoScore = metrics.seoScore.score / 100;
-        score += seoScore * weights.seoScore;
-        
-        // Structure score
-        score += metrics.structure.score * weights.structure;
-        
-        // Internal links score
-        const linkScore = Math.min(1, metrics.internalLinks / this.contentQualityMetrics.internalLinks.optimal);
-        score += linkScore * weights.internalLinks;
-
-        return score;
-    }
-
-    identifyIssues(metrics) {
-        const issues = [];
-        
-        if (metrics.wordCount < this.contentQualityMetrics.wordCount.min) {
-            issues.push(`För få ord (${metrics.wordCount}/${this.contentQualityMetrics.wordCount.min})`);
-        }
-        
-        if (metrics.readability < this.contentQualityMetrics.readability.min) {
-            issues.push(`Låg läsbarhet (${Math.round(metrics.readability)}/${this.contentQualityMetrics.readability.min})`);
-        }
-        
-        if (metrics.seoScore.score < this.contentQualityMetrics.seoScore.min) {
-            issues.push(`Lågt SEO-värde (${metrics.seoScore.score}/${this.contentQualityMetrics.seoScore.min})`);
-        }
-        
-        if (metrics.structure.score < this.contentQualityMetrics.structure.min) {
-            issues.push(`Dålig struktur (${Math.round(metrics.structure.score * 100)}/${this.contentQualityMetrics.structure.min * 100})`);
-        }
-        
-        if (metrics.internalLinks < this.contentQualityMetrics.internalLinks.min) {
-            issues.push(`För få interna länkar (${metrics.internalLinks}/${this.contentQualityMetrics.internalLinks.min})`);
-        }
-
-        return issues;
-    }
-
-    identifyStrengths(metrics) {
-        const strengths = [];
-        
-        if (metrics.wordCount >= this.contentQualityMetrics.wordCount.optimal) {
-            strengths.push(`Bra innehållslängd (${metrics.wordCount} ord)`);
-        }
-        
-        if (metrics.readability >= this.contentQualityMetrics.readability.optimal) {
-            strengths.push(`Hög läsbarhet (${Math.round(metrics.readability)})`);
-        }
-        
-        if (metrics.seoScore.score >= this.contentQualityMetrics.seoScore.optimal) {
-            strengths.push(`Utmärkt SEO (${metrics.seoScore.score})`);
-        }
-        
-        if (metrics.structure.score >= this.contentQualityMetrics.structure.optimal) {
-            strengths.push(`Bra struktur (${Math.round(metrics.structure.score * 100)}%)`);
-        }
-        
-        if (metrics.internalLinks >= this.contentQualityMetrics.internalLinks.optimal) {
-            strengths.push(`Bra interna länkning (${metrics.internalLinks} länkar)`);
-        }
-
-        return strengths;
-    }
-
-    async identifyImprovementAreas(analysis) {
-        console.log('🎯 Identifierar förbättringsområden...');
-        
-        if (!analysis) return [];
-
-        const improvementAreas = [];
-
-        // Analysera vanliga problem
-        const commonIssues = this.findCommonIssues(analysis.qualityMetrics);
-        
-        // Identifiera mönster i lågkvalitetsartiklar
-        const lowQualityPatterns = this.analyzeLowQualityPatterns(analysis.issues);
-        
-        // Identifiera framgångsfaktorer
-        const successFactors = this.analyzeSuccessFactors(analysis.strengths);
-
-        improvementAreas.push({
-            type: 'common_issues',
-            issues: commonIssues,
-            priority: 'high'
-        });
-
-        improvementAreas.push({
-            type: 'low_quality_patterns',
-            patterns: lowQualityPatterns,
-            priority: 'high'
-        });
-
-        improvementAreas.push({
-            type: 'success_factors',
-            factors: successFactors,
-            priority: 'medium'
-        });
-
-        return improvementAreas;
-    }
-
-    findCommonIssues(qualityMetrics) {
-        const issueCounts = {};
-        
-        qualityMetrics.forEach(metric => {
-            metric.issues.forEach(issue => {
-                issueCounts[issue] = (issueCounts[issue] || 0) + 1;
-            });
-        });
-
-        return Object.entries(issueCounts)
-            .sort(([,a], [,b]) => b - a)
-            .slice(0, 5)
-            .map(([issue, count]) => ({ issue, count }));
-    }
-
-    analyzeLowQualityPatterns(issues) {
-        const patterns = {
-            shortContent: 0,
-            poorStructure: 0,
-            missingLinks: 0,
-            htmlErrors: 0,
-            genericContent: 0
-        };
-
-        issues.forEach(issue => {
-            if (issue.issues.some(i => i.includes('För få ord'))) patterns.shortContent++;
-            if (issue.issues.some(i => i.includes('Dålig struktur'))) patterns.poorStructure++;
-            if (issue.issues.some(i => i.includes('interna länkar'))) patterns.missingLinks++;
-            if (issue.issues.some(i => i.includes('HTML-kod'))) patterns.htmlErrors++;
-            if (issue.issues.some(i => i.includes('generisk'))) patterns.genericContent++;
-        });
-
-        return patterns;
-    }
-
-    analyzeSuccessFactors(strengths) {
-        const factorCounts = {};
-        
-        strengths.forEach(strength => {
-            strength.strengths.forEach(s => {
-                factorCounts[s] = (factorCounts[s] || 0) + 1;
-            });
-        });
-
-        return Object.entries(factorCounts)
-            .sort(([,a], [,b]) => b - a)
-            .slice(0, 3)
-            .map(([factor, count]) => ({ factor, count }));
-    }
-
-    async generateImprovementSuggestions(improvementAreas) {
-        console.log('💡 Genererar förbättringsförslag...');
-        
-        const suggestions = [];
-
-        for (const area of improvementAreas) {
-            switch (area.type) {
-                case 'common_issues':
-                    suggestions.push(...this.generateIssueFixes(area.issues));
-                    break;
-                case 'low_quality_patterns':
-                    suggestions.push(...this.generatePatternFixes(area.patterns));
-                    break;
-                case 'success_factors':
-                    suggestions.push(...this.generateSuccessReplications(area.factors));
-                    break;
-            }
-        }
-
-        return suggestions;
-    }
-
-    generateIssueFixes(issues) {
-        const fixes = [];
-        
-        issues.forEach(({ issue, count }) => {
-            if (issue.includes('För få ord')) {
-                fixes.push({
-                    type: 'content_length',
-                    description: 'Öka innehållslängden till minst 800 ord',
-                    implementation: 'Uppdatera generateSampleContent för att skapa längre innehåll',
-                    priority: 'high'
-                });
-            }
-            
-            if (issue.includes('Dålig struktur')) {
-                fixes.push({
-                    type: 'content_structure',
-                    description: 'Förbättra HTML-struktur med korrekta rubriker och stycken',
-                    implementation: 'Uppdatera content generation för att använda korrekt HTML',
-                    priority: 'high'
-                });
-            }
-            
-            if (issue.includes('interna länkar')) {
-                fixes.push({
-                    type: 'internal_linking',
-                    description: 'Lägg till fler relevanta interna länkar',
-                    implementation: 'Förbättra generateInternalLinks funktionen',
-                    priority: 'medium'
-                });
-            }
-        });
-
-        return fixes;
-    }
-
-    generatePatternFixes(patterns) {
-        const fixes = [];
-        
-        if (patterns.htmlErrors > 0) {
-            fixes.push({
-                type: 'html_validation',
-                description: 'Fixera HTML-kodning i innehåll',
-                implementation: 'Lägg till HTML-sanitering i content generation',
-                priority: 'high'
-            });
-        }
-        
-        if (patterns.genericContent > 0) {
-            fixes.push({
-                type: 'content_specificity',
-                description: 'Gör innehållet mer specifikt och relevant',
-                implementation: 'Förbättra topic analysis och content personalization',
-                priority: 'high'
-            });
-        }
-
-        return fixes;
-    }
-
-    generateSuccessReplications(factors) {
-        const replications = [];
-        
-        factors.forEach(({ factor, count }) => {
-            if (factor.includes('Bra innehållslängd')) {
-                replications.push({
-                    type: 'replicate_length',
-                    description: 'Replikera framgångsrik innehållslängd',
-                    implementation: 'Använd samma längdstrategi för nya artiklar',
-                    priority: 'medium'
-                });
-            }
-            
-            if (factor.includes('Bra struktur')) {
-                replications.push({
-                    type: 'replicate_structure',
-                    description: 'Replikera framgångsrik struktur',
-                    implementation: 'Använd samma strukturmönster för nya artiklar',
-                    priority: 'medium'
-                });
-            }
-        });
-
-        return replications;
-    }
-
-    async testImprovements(suggestions) {
-        console.log('🧪 Testar förbättringar...');
-        
-        for (const suggestion of suggestions) {
-            if (suggestion.priority === 'high') {
-                await this.testSuggestion(suggestion);
-            }
-        }
-    }
-
-    async testSuggestion(suggestion) {
-        console.log(`🔬 Testar: ${suggestion.description}`);
-        
+    async searchWebForKeywords() {
         try {
-            // Skapa en testartikel med förbättringen
-            const testArticle = await this.generateTestArticle(suggestion);
+            console.log('🌐 Söker på nätet efter sökord och teman...');
             
-            // Analysera kvaliteten
-            const quality = await this.analyzeArticleQuality(testArticle);
+            if (!this.serpapiKey) {
+                console.log('⚠️ SerpAPI nyckel saknas, hoppar över webbsökning');
+                return;
+            }
             
-            // Logga resultatet
-            this.improvementLog.push({
-                timestamp: new Date(),
-                suggestion,
-                testResult: quality,
-                success: quality.overallScore > 0.7
+            const SerpApi = require('serpapi');
+            const search = new SerpApi.SerpApiSearch({
+                api_key: this.serpapiKey
             });
             
-            console.log(`✅ Test resultat: ${Math.round(quality.overallScore * 100)}% kvalitet`);
+            for (const keyword of this.searchKeywords.slice(0, 3)) { // Begränsa till 3 sökningar
+                try {
+                    const results = await search.json({
+                        q: keyword,
+                        engine: 'google',
+                        num: 10
+                    });
+                    
+                    const searchResult = {
+                        keyword: keyword,
+                        timestamp: new Date().toISOString(),
+                        results: results.organic_results?.slice(0, 5) || [],
+                        related_keywords: results.related_questions || []
+                    };
+                    
+                    this.websiteKnowledge.webSearchResults.push(searchResult);
+                    console.log(`✅ Sökte efter "${keyword}" - hittade ${searchResult.results.length} resultat`);
+                    
+                    // Paus mellan sökningar för att undvika rate limiting
+                    await this.sleep(2000);
+                    
+                } catch (searchError) {
+                    console.error(`❌ Fel vid sökning efter "${keyword}":`, searchError.message);
+                }
+            }
             
         } catch (error) {
-            console.error(`❌ Test misslyckades: ${error.message}`);
+            console.error('❌ Fel vid webbsökning:', error.message);
         }
     }
 
-    async generateTestArticle(suggestion) {
-        // Simulera en testartikel baserad på förbättringsförslaget
-        const testTopics = [
-            'AI och framtidens e-handel',
-            'RFID-teknik för företag',
-            'Interaktiva lekgolv',
-            'Digital transformation'
-        ];
-        
-        const randomTopic = testTopics[Math.floor(Math.random() * testTopics.length)];
-        
-        return {
-            id: 'test-' + Date.now(),
-            title: { rendered: `Test: ${randomTopic}` },
-            content: { rendered: this.generateImprovedContent(randomTopic, suggestion) }
-        };
-    }
-
-    generateImprovedContent(topic, suggestion) {
-        let content = '';
-        
-        switch (suggestion.type) {
-            case 'content_length':
-                content = this.generateLongerContent(topic);
-                break;
-            case 'content_structure':
-                content = this.generateStructuredContent(topic);
-                break;
-            case 'internal_linking':
-                content = this.generateContentWithLinks(topic);
-                break;
-            default:
-                content = this.generateStandardContent(topic);
-        }
-        
-        return content;
-    }
-
-    generateLongerContent(topic) {
-        return `
-            <h2>${topic} - En komplett guide</h2>
-            <p>I denna omfattande artikel kommer vi att utforska alla aspekter av ${topic} och hur det påverkar moderna företag. Vi kommer att täcka både tekniska aspekter och praktiska implementationer.</p>
-            
-            <h3>Vad är ${topic}?</h3>
-            <p>${topic} representerar en revolutionerande förändring inom teknologi och affärsmodeller. Det är inte bara en trend utan en fundamental förändring av hur vi arbetar och levererar värde till våra kunder.</p>
-            
-            <h3>Fördelar med ${topic}</h3>
-            <ul>
-                <li><strong>Effektivitet:</strong> Automatisering av manuella processer</li>
-                <li><strong>Skalbarhet:</strong> Möjlighet att hantera större volymer</li>
-                <li><strong>Kostnadsbesparing:</strong> Reducering av operativa kostnader</li>
-                <li><strong>Kundnöjdhet:</strong> Förbättrad kundupplevelse</li>
-            </ul>
-            
-            <h3>Implementation av ${topic}</h3>
-            <p>För att framgångsrikt implementera ${topic} krävs en strategisk approach. Det börjar med en grundlig analys av nuvarande processer och identifiering av förbättringsområden.</p>
-            
-            <h3>Framtida utveckling</h3>
-            <p>${topic} kommer att fortsätta utvecklas och integreras med andra teknologier som AI, IoT och 5G. Detta skapar nya möjligheter för innovation och tillväxt.</p>
-            
-            <h3>Slutsats</h3>
-            <p>${topic} är inte bara en teknisk lösning utan en strategisk investering i framtiden. Företag som omfamnar denna förändring kommer att vara bättre positionerade för framgång i den digitala ekonomin.</p>
-        `;
-    }
-
-    generateStructuredContent(topic) {
-        return `
-            <h1>${topic} - Komplett översikt</h1>
-            
-            <p>Välkommen till vår djupgående guide om ${topic}. I denna artikel kommer vi att utforska alla viktiga aspekter av detta ämne.</p>
-            
-            <h2>Grunderna i ${topic}</h2>
-            <p>För att förstå ${topic} behöver vi förstå grundprinciperna. Det handlar om att skapa värde genom innovation och effektivitet.</p>
-            
-            <h3>Tekniska aspekter</h3>
-            <p>Den tekniska implementationen av ${topic} kräver noggrann planering och expertis. Vi behöver överväga flera faktorer:</p>
-            
-            <ul>
-                <li>Systemarkitektur</li>
-                <li>Integration med befintliga system</li>
-                <li>Säkerhet och compliance</li>
-                <li>Skalbarhet och prestanda</li>
-            </ul>
-            
-            <h3>Affärsmodeller</h3>
-            <p>${topic} påverkar inte bara tekniken utan också hur vi driver våra affärer. Det skapar nya möjligheter för:</p>
-            
-            <ol>
-                <li>Kostnadsreducering</li>
-                <li>Intäktsökning</li>
-                <li>Kundnöjdhet</li>
-                <li>Marknadsandel</li>
-            </ol>
-            
-            <h2>Framtidsutsikter</h2>
-            <p>${topic} kommer att fortsätta utvecklas och kommer att spela en avgörande roll i framtidens digitala ekonomi.</p>
-        `;
-    }
-
-    generateContentWithLinks(topic) {
-        return `
-            <h2>${topic} - En guide med relevanta länkar</h2>
-            
-            <p>I denna artikel utforskar vi ${topic} och dess påverkan på moderna företag. Läs mer om våra <a href="/produkt/rfid-lasare/">RFID-lösningar</a> för att se hur vi kan hjälpa dig.</p>
-            
-            <h3>Varför ${topic} är viktigt</h3>
-            <p>${topic} representerar en viktig förändring inom teknologi. Våra <a href="/tjanster/konsultation/">konsulttjänster</a> hjälper företag att navigera denna förändring.</p>
-            
-            <h3>Implementation</h3>
-            <p>För att implementera ${topic} behöver du rätt verktyg. Kolla in våra <a href="/produkt/interaktiva-lekgolv/">interaktiva lösningar</a> som kan hjälpa dig komma igång.</p>
-            
-            <h3>Support och hjälp</h3>
-            <p>Behöver du hjälp med ${topic}? Vårt <a href="/kontakta-oss/">supportteam</a> är här för att hjälpa dig genom hela processen.</p>
-        `;
-    }
-
-    generateStandardContent(topic) {
-        return `
-            <h2>${topic}</h2>
-            <p>${topic} är ett viktigt ämne inom modern teknologi och affärsutveckling. Det representerar en förändring i hur vi arbetar och levererar värde.</p>
-            <p>För att framgångsrikt implementera ${topic} krävs strategisk planering och expertis. Vi hjälper företag att navigera denna förändring.</p>
-        `;
-    }
-
-    async updateAIModel(improvements) {
-        console.log('🔄 Uppdaterar AI-modell...');
-        
-        // Här skulle vi normalt uppdatera AI-modellens parametrar
-        // För nu loggar vi bara förbättringarna
-        this.analysisResults.push({
-            timestamp: new Date(),
-            improvements,
-            summary: this.generateImprovementSummary(improvements)
-        });
-    }
-
-    generateImprovementSummary(improvements) {
-        const highPriority = improvements.filter(i => i.priority === 'high').length;
-        const mediumPriority = improvements.filter(i => i.priority === 'medium').length;
-        
-        return {
-            totalImprovements: improvements.length,
-            highPriority,
-            mediumPriority,
-            estimatedImpact: highPriority > 0 ? 'Hög' : 'Medium'
-        };
-    }
-
-    async logImprovementResults(improvements) {
-        console.log('📝 Loggar förbättringsresultat...');
-        
-        const logEntry = {
-            timestamp: new Date(),
-            improvements,
-            summary: this.generateImprovementSummary(improvements)
-        };
-
-        // Spara till fil
-        const logFile = path.join(__dirname, 'ai-improvement-log.json');
-        let logs = [];
-        
+    async identifyImprovementOpportunities() {
         try {
-            const existingLogs = await fs.readFile(logFile, 'utf8');
-            logs = JSON.parse(existingLogs);
+            console.log('🎯 Identifierar förbättringsmöjligheter...');
+            
+            const opportunities = {
+                timestamp: new Date().toISOString(),
+                contentGaps: [],
+                seoOpportunities: [],
+                productOpportunities: [],
+                marketOpportunities: []
+            };
+            
+            // Identifiera innehållsgap
+            const existingTopics = new Set();
+            this.websiteKnowledge.pages.forEach(page => {
+                const words = page.title.toLowerCase().split(/\s+/);
+                words.forEach(word => existingTopics.add(word));
+            });
+            
+            // Jämför med sökresultat
+            this.websiteKnowledge.webSearchResults.forEach(search => {
+                search.results.forEach(result => {
+                    const resultWords = result.title.toLowerCase().split(/\s+/);
+                    resultWords.forEach(word => {
+                        if (word.length > 3 && !existingTopics.has(word)) {
+                            opportunities.contentGaps.push({
+                                keyword: word,
+                                source: search.keyword,
+                                potential: 'high'
+                            });
+                        }
+                    });
+                });
+            });
+            
+            // Ta bort duplicerade förslag
+            opportunities.contentGaps = opportunities.contentGaps
+                .filter((gap, index, self) => 
+                    index === self.findIndex(g => g.keyword === gap.keyword)
+                )
+                .slice(0, 10);
+            
+            this.websiteKnowledge.improvementOpportunities = opportunities;
+            console.log(`✅ Identifierade ${opportunities.contentGaps.length} innehållsgap`);
+            
         } catch (error) {
-            // Filen finns inte eller är tom
+            console.error('❌ Fel vid identifiering av förbättringsmöjligheter:', error.message);
         }
-        
-        logs.push(logEntry);
-        
-        await fs.writeFile(logFile, JSON.stringify(logs, null, 2));
-        
-        console.log(`✅ Förbättringsresultat loggade. Totalt: ${improvements.length} förbättringar`);
     }
 
-    async fetchPosts(status = 'publish') {
+    async createAndTestImprovements() {
         try {
-            const response = await axios.get(`${this.apiBaseUrl}/wordpress/posts?status=${status}`);
-            return response.data;
+            console.log('🔧 Skapar och testar förbättringar...');
+            
+            // Generera förbättringsförslag baserat på analys
+            const improvements = {
+                timestamp: new Date().toISOString(),
+                contentSuggestions: [],
+                seoSuggestions: [],
+                technicalSuggestions: []
+            };
+            
+            // Innehållsförslag baserat på gap
+            if (this.websiteKnowledge.improvementOpportunities?.contentGaps) {
+                this.websiteKnowledge.improvementOpportunities.contentGaps.forEach(gap => {
+                    improvements.contentSuggestions.push({
+                        type: 'new_article',
+                        topic: gap.keyword,
+                        title: `Vad du behöver veta om ${gap.keyword}`,
+                        description: `En djupgående guide om ${gap.keyword} och dess betydelse för din verksamhet`,
+                        priority: gap.potential === 'high' ? 'high' : 'medium'
+                    });
+                });
+            }
+            
+            // SEO-förslag
+            improvements.seoSuggestions.push({
+                type: 'meta_optimization',
+                description: 'Optimera meta beskrivningar för alla sidor',
+                impact: 'high'
+            });
+            
+            improvements.seoSuggestions.push({
+                type: 'internal_linking',
+                description: 'Förbättra intern länkning mellan relaterade sidor',
+                impact: 'medium'
+            });
+            
+            // Tekniska förslag
+            improvements.technicalSuggestions.push({
+                type: 'page_speed',
+                description: 'Optimera bildstorlekar och caching',
+                impact: 'high'
+            });
+            
+            this.websiteKnowledge.improvements = improvements;
+            console.log(`✅ Skapade ${improvements.contentSuggestions.length} innehållsförslag`);
+            
         } catch (error) {
-            console.error(`❌ Fel vid hämtning av ${status} artiklar:`, error.message);
-            return [];
+            console.error('❌ Fel vid skapande av förbättringar:', error.message);
         }
     }
 
-    sleep(ms) {
+    async generateImprovedContent() {
+        try {
+            console.log('✍️ Genererar förbättrat innehåll...');
+            
+            if (!this.openaiKey) {
+                console.log('⚠️ OpenAI API nyckel saknas, hoppar över innehållsgenerering');
+                return;
+            }
+            
+            // Välj ett förslag att arbeta med
+            const suggestions = this.websiteKnowledge.improvements?.contentSuggestions || [];
+            if (suggestions.length === 0) {
+                console.log('⚠️ Inga innehållsförslag tillgängliga');
+                return;
+            }
+            
+            const selectedSuggestion = suggestions[0]; // Ta första förslaget
+            
+            // Generera innehåll med OpenAI
+            const prompt = `Skriv en SEO-optimerad bloggartikel om "${selectedSuggestion.topic}" för ConceptSolutions. 
+            Artikeln ska vara informativ, engagerande och innehålla praktiska tips. 
+            Längd: 800-1200 ord. Inkludera H2 och H3 rubriker.`;
+            
+            const response = await axios.post('https://api.openai.com/v1/chat/completions', {
+                model: 'gpt-3.5-turbo',
+                messages: [
+                    {
+                        role: 'system',
+                        content: 'Du är en expert på att skriva SEO-optimerade bloggartiklar för företag inom teknologi och automation.'
+                    },
+                    {
+                        role: 'user',
+                        content: prompt
+                    }
+                ],
+                max_tokens: 2000,
+                temperature: 0.7
+            }, {
+                headers: {
+                    'Authorization': `Bearer ${this.openaiKey}`,
+                    'Content-Type': 'application/json'
+                }
+            });
+            
+            const generatedContent = response.data.choices[0].message.content;
+            
+            // Spara genererat innehåll
+            const contentFile = {
+                timestamp: new Date().toISOString(),
+                topic: selectedSuggestion.topic,
+                title: selectedSuggestion.title,
+                content: generatedContent,
+                status: 'draft'
+            };
+            
+            // Skapa generated-content mapp om den inte finns
+            try {
+                await fs.mkdir('generated-content', { recursive: true });
+            } catch (error) {
+                // Mappen finns redan
+            }
+            
+            await fs.writeFile(
+                `generated-content/${selectedSuggestion.topic.replace(/\s+/g, '-')}.json`,
+                JSON.stringify(contentFile, null, 2)
+            );
+            
+            console.log(`✅ Genererade innehåll för "${selectedSuggestion.topic}"`);
+            
+        } catch (error) {
+            console.error('❌ Fel vid generering av innehåll:', error.message);
+        }
+    }
+
+    async updateKnowledgeBase() {
+        try {
+            console.log('💾 Uppdaterar kunskapsbasen...');
+            
+            // Spara all kunskap till fil
+            const knowledgeBase = {
+                lastUpdated: new Date().toISOString(),
+                learningCycles: this.learningCycles,
+                websiteKnowledge: this.websiteKnowledge,
+                learningLog: this.learningLog.slice(-100) // Spara bara senaste 100 loggar
+            };
+            
+            await fs.writeFile('ai-knowledge-base.json', JSON.stringify(knowledgeBase, null, 2));
+            
+            // Uppdatera förbättringslogg
+            const improvementLog = {
+                timestamp: new Date().toISOString(),
+                cycle: this.learningCycles,
+                insights: this.websiteKnowledge.improvements || {},
+                webSearchResults: this.websiteKnowledge.webSearchResults.slice(-5) // Senaste 5
+            };
+            
+            let existingLog = [];
+            try {
+                const logContent = await fs.readFile('ai-improvement-log.json', 'utf8');
+                existingLog = JSON.parse(logContent);
+            } catch (error) {
+                // Filen finns inte än
+            }
+            
+            existingLog.push(improvementLog);
+            await fs.writeFile('ai-improvement-log.json', JSON.stringify(existingLog, null, 2));
+            
+            console.log('✅ Kunskapsbasen uppdaterad');
+            
+        } catch (error) {
+            console.error('❌ Fel vid uppdatering av kunskapsbasen:', error.message);
+        }
+    }
+
+    async generateInsights() {
+        try {
+            console.log('🧠 Genererar insikter...');
+            
+            const insights = {
+                timestamp: new Date().toISOString(),
+                cycle: this.learningCycles,
+                keyFindings: [],
+                recommendations: [],
+                trends: []
+            };
+            
+            // Analysera trender från webbsökningar
+            if (this.websiteKnowledge.webSearchResults.length > 0) {
+                const recentSearches = this.websiteKnowledge.webSearchResults.slice(-3);
+                insights.trends = recentSearches.map(search => ({
+                    keyword: search.keyword,
+                    resultCount: search.results.length,
+                    topResult: search.results[0]?.title || 'Inga resultat'
+                }));
+            }
+            
+            // Generera rekommendationer
+            if (this.websiteKnowledge.improvements?.contentSuggestions) {
+                insights.recommendations = this.websiteKnowledge.improvements.contentSuggestions
+                    .slice(0, 3)
+                    .map(suggestion => ({
+                        type: 'content',
+                        priority: suggestion.priority,
+                        description: suggestion.description
+                    }));
+            }
+            
+            // Lägg till insikten i kunskapsbasen
+            this.websiteKnowledge.insights = insights;
+            
+            console.log(`✅ Genererade ${insights.recommendations.length} rekommendationer`);
+            
+        } catch (error) {
+            console.error('❌ Fel vid generering av insikter:', error.message);
+        }
+    }
+
+    showProgress() {
+        const elapsed = (new Date() - this.startTime) / 1000 / 60; // minuter
+        const progress = (elapsed / (this.duration * 60)) * 100;
+        
+        console.log('\n📊 PROGRESS RAPPORT');
+        console.log('=' .repeat(40));
+        console.log(`⏱️  Körtid: ${elapsed.toFixed(1)} minuter av ${this.duration * 60} minuter`);
+        console.log(`📈 Progress: ${progress.toFixed(1)}%`);
+        console.log(`🔄 Cykler: ${this.learningCycles}`);
+        console.log(`📚 Sidor analyserade: ${this.websiteKnowledge.pages.length}`);
+        console.log(`🛍️ Produkter analyserade: ${this.websiteKnowledge.products.length}`);
+        console.log(`🌐 Webbsökningar: ${this.websiteKnowledge.webSearchResults.length}`);
+        console.log(`💡 Förbättringsförslag: ${this.websiteKnowledge.improvements?.contentSuggestions?.length || 0}`);
+        console.log('=' .repeat(40) + '\n');
+    }
+
+    async generateFinalReport() {
+        try {
+            console.log('📋 Genererar slutrapport...');
+            
+            const report = {
+                generatedAt: new Date().toISOString(),
+                summary: {
+                    totalCycles: this.learningCycles,
+                    duration: `${this.duration} timmar`,
+                    pagesAnalyzed: this.websiteKnowledge.pages.length,
+                    productsAnalyzed: this.websiteKnowledge.products.length,
+                    webSearches: this.websiteKnowledge.webSearchResults.length,
+                    contentSuggestions: this.websiteKnowledge.improvements?.contentSuggestions?.length || 0
+                },
+                keyInsights: this.websiteKnowledge.insights || {},
+                recommendations: this.websiteKnowledge.improvements || {},
+                webSearchResults: this.websiteKnowledge.webSearchResults,
+                contentPatterns: this.websiteKnowledge.contentPatterns
+            };
+            
+            await fs.writeFile('ai-learning-report.json', JSON.stringify(report, null, 2));
+            
+            // Generera markdown rapport
+            let markdownReport = `# 🤖 AI Learning Report - ConceptSolutions\n\n`;
+            markdownReport += `**Genererad:** ${new Date().toLocaleString('sv-SE')}\n`;
+            markdownReport += `**Körtid:** ${this.duration} timmar\n`;
+            markdownReport += `**Lärandecykler:** ${this.learningCycles}\n\n`;
+            
+            markdownReport += `## 📊 Sammanfattning\n\n`;
+            markdownReport += `- **Sidor analyserade:** ${report.summary.pagesAnalyzed}\n`;
+            markdownReport += `- **Produkter analyserade:** ${report.summary.productsAnalyzed}\n`;
+            markdownReport += `- **Webbsökningar:** ${report.summary.webSearches}\n`;
+            markdownReport += `- **Innehållsförslag:** ${report.summary.contentSuggestions}\n\n`;
+            
+            if (report.recommendations.contentSuggestions) {
+                markdownReport += `## 💡 Rekommendationer\n\n`;
+                report.recommendations.contentSuggestions.forEach((suggestion, index) => {
+                    markdownReport += `${index + 1}. **${suggestion.topic}** (${suggestion.priority})\n`;
+                    markdownReport += `   - ${suggestion.description}\n\n`;
+                });
+            }
+            
+            await fs.writeFile('AI-LEARNING-REPORT.md', markdownReport);
+            
+            console.log('✅ Slutrapport genererad: ai-learning-report.json och AI-LEARNING-REPORT.md');
+            
+        } catch (error) {
+            console.error('❌ Fel vid generering av slutrapport:', error.message);
+        }
+    }
+
+    async sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
+}
 
-    // Statistik och rapporter
-    async generateImprovementReport() {
-        console.log('📊 Genererar förbättringsrapport...');
+// Huvudfunktion för att köra motorn
+async function main() {
+    // Parse command line arguments
+    const args = process.argv.slice(2);
+    const options = {};
+    
+    for (let i = 0; i < args.length; i += 2) {
+        const key = args[i].replace('--', '');
+        const value = args[i + 1];
         
-        const report = {
-            timestamp: new Date(),
-            totalCycles: this.improvementLog.length,
-            successfulImprovements: this.improvementLog.filter(log => log.success).length,
-            averageQualityImprovement: this.calculateAverageImprovement(),
-            topIssues: this.getTopIssues(),
-            recommendations: this.generateRecommendations()
-        };
-
-        return report;
+        if (key === 'duration') {
+            options.duration = parseInt(value);
+        } else if (key === 'web-search') {
+            options.webSearch = value === 'true';
+        } else if (key === 'publish') {
+            options.publishArticles = value === 'true';
+        }
     }
-
-    calculateAverageImprovement() {
-        if (this.improvementLog.length === 0) return 0;
-        
-        const improvements = this.improvementLog.map(log => log.testResult.overallScore);
-        return improvements.reduce((a, b) => a + b, 0) / improvements.length;
-    }
-
-    getTopIssues() {
-        const issueCounts = {};
-        
-        this.improvementLog.forEach(log => {
-            log.testResult.issues.forEach(issue => {
-                issueCounts[issue] = (issueCounts[issue] || 0) + 1;
-            });
-        });
-
-        return Object.entries(issueCounts)
-            .sort(([,a], [,b]) => b - a)
-            .slice(0, 5)
-            .map(([issue, count]) => ({ issue, count }));
-    }
-
-    generateRecommendations() {
-        return [
-            'Fortsätt övervaka innehållskvalitet kontinuerligt',
-            'Implementera automatiska kvalitetskontroller',
-            'Skapa mallar för framgångsrika artiklar',
-            'Förbättra HTML-struktur i genererat innehåll',
-            'Öka antalet interna länkar i artiklar'
-        ];
+    
+    const engine = new AISelfImprovementEngine(options);
+    
+    // Hantera process avslut
+    process.on('SIGINT', () => {
+        console.log('\n🛑 Stoppar AI Learning Engine...');
+        engine.isRunning = false;
+        process.exit(0);
+    });
+    
+    try {
+        await engine.startSelfImprovementMode();
+    } catch (error) {
+        console.error('❌ Kritiskt fel i AI Learning Engine:', error);
+        process.exit(1);
     }
 }
 
-// Starta självförbättringsläget
-async function startSelfImprovement() {
-    const engine = new AISelfImprovementEngine();
-    
-    console.log('🤖 ConceptSolutions AI Self-Improvement Engine');
-    console.log('==============================================');
-    console.log('Denna AI kommer nu att kontinuerligt analysera och förbättra sig själv.');
-    console.log('Tryck Ctrl+C för att stoppa.\n');
-    
-    await engine.startSelfImprovementMode();
-}
-
-// Exportera för användning i andra filer
-module.exports = { AISelfImprovementEngine, startSelfImprovement };
-
-// Starta om filen körs direkt
+// Kör motorn om filen körs direkt
 if (require.main === module) {
-    startSelfImprovement().catch(console.error);
+    main();
 }
+
+module.exports = AISelfImprovementEngine;

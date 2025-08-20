@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       learning_duration:
-        description: 'Learning duration in hours'
+        description: 'Learning duration in hours (max 6 for GitHub Actions)'
         required: true
-        default: '8'
+        default: '4'
         type: string
       search_web:
         description: 'Search web for keywords and themes'
@@ -26,13 +26,14 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'intensive-ai-learning-engine.js'
+      - 'ai-self-improvement-engine.js'
       - 'services/ai-engine.js'
       - '.github/workflows/ai-learning-pipeline.yml'
 
 jobs:
   ai-learning:
     runs-on: ubuntu-latest
+    timeout-minutes: 360 # 6 timmar max för GitHub Actions
     
     strategy:
       matrix:
@@ -61,28 +62,27 @@ jobs:
         echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> $GITHUB_ENV
         echo "SERPAPI_KEY=${{ secrets.SERPAPI_KEY }}" >> $GITHUB_ENV
         
-    - name: Start server
-      run: |
-        npm run dev &
-        sleep 10
-        
     - name: Run AI Learning Engine
       run: |
         echo "🚀 STARTAR AI LÄRANDE PIPELINE"
-        echo "⏱️  Körtid: ${{ github.event.inputs.learning_duration || '8' }} timmar"
+        echo "⏱️  Körtid: ${{ github.event.inputs.learning_duration || '4' }} timmar"
         echo "🌐 Webbsökning: ${{ github.event.inputs.search_web || 'true' }}"
         echo "📝 Publicera artiklar: ${{ github.event.inputs.publish_articles || 'false' }}"
         
-        # Kör AI learning engine med webbsökning
-        node intensive-ai-learning-engine.js --duration=${{ github.event.inputs.learning_duration || '8' }} --web-search=${{ github.event.inputs.search_web || 'true' }} --publish=${{ github.event.inputs.publish_articles || 'false' }} &
-        
-        # Vänta på att AI:n ska slutföra sitt arbete
-        sleep $(( ${{ github.event.inputs.learning_duration || '8' }} * 3600 ))
+        # Kör AI learning engine direkt (utan localhost beroenden)
+        node ai-self-improvement-engine.js --duration=${{ github.event.inputs.learning_duration || '4' }} --web-search=${{ github.event.inputs.search_web || 'true' }} --publish=${{ github.event.inputs.publish_articles || 'false' }}
         
     - name: Generate learning report
       run: |
         echo "📊 Genererar läranderapport..."
-        node generate-learning-report.js
+        if [ -f "generate-learning-report.js" ]; then
+          node generate-learning-report.js
+        else
+          echo "📋 Skapar enkel rapport..."
+          echo "# AI Learning Report" > AI-LEARNING-REPORT.md
+          echo "Generated: $(date)" >> AI-LEARNING-REPORT.md
+          echo "Duration: ${{ github.event.inputs.learning_duration || '4' }} hours" >> AI-LEARNING-REPORT.md
+        fi
         
     - name: Upload learning artifacts
       uses: actions/upload-artifact@v4
@@ -92,6 +92,7 @@ jobs:
           ai-knowledge-base.json
           ai-learning-report.json
           ai-improvement-log.json
+          AI-LEARNING-REPORT.md
           generated-content/
           
     - name: Commit and push improvements
@@ -101,15 +102,20 @@ jobs:
         
         if [ -f ai-knowledge-base.json ]; then
           git add ai-knowledge-base.json
-          git commit -m "🤖 AI Learning Update - $(date)"
+          git commit -m "🤖 AI Learning Update - $(date)" || echo "No changes to commit"
         fi
         
         if [ -f ai-learning-report.json ]; then
           git add ai-learning-report.json
-          git commit -m "📊 AI Learning Report - $(date)"
+          git commit -m "📊 AI Learning Report - $(date)" || echo "No changes to commit"
         fi
         
-        git push origin main
+        if [ -f AI-LEARNING-REPORT.md ]; then
+          git add AI-LEARNING-REPORT.md
+          git commit -m "📋 AI Learning Report Markdown - $(date)" || echo "No changes to commit"
+        fi
+        
+        git push origin main || echo "No changes to push"
         
     - name: Create summary comment
       if: github.event_name == 'workflow_dispatch'
@@ -119,14 +125,14 @@ jobs:
           const fs = require('fs');
           
           let summary = '## 🤖 AI Learning Pipeline Complete\n\n';
-          summary += `**Duration:** ${context.payload.inputs.learning_duration || '8'} hours\n`;
+          summary += `**Duration:** ${context.payload.inputs.learning_duration || '4'} hours\n`;
           summary += `**Web Search:** ${context.payload.inputs.search_web || 'true'}\n`;
           summary += `**Publish Articles:** ${context.payload.inputs.publish_articles || 'false'}\n\n`;
           
           try {
             if (fs.existsSync('ai-knowledge-base.json')) {
               const knowledge = JSON.parse(fs.readFileSync('ai-knowledge-base.json', 'utf8'));
-              summary += `**Learning Cycles:** ${knowledge.cycles || 0}\n`;
+              summary += `**Learning Cycles:** ${knowledge.learningCycles || 0}\n`;
               summary += `**Pages Analyzed:** ${knowledge.websiteKnowledge?.pages?.length || 0}\n`;
               summary += `**Products Analyzed:** ${knowledge.websiteKnowledge?.products?.length || 0}\n`;
             }
@@ -140,9 +146,11 @@ jobs:
           summary += '- Generated SEO and performance recommendations\n';
           summary += '- Updated knowledge base with new insights\n';
           
-          github.rest.issues.createComment({
-            issue_number: context.issue.number,
+          // Skapa en issue istället för comment eftersom det inte finns ett issue nummer
+          github.rest.issues.create({
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: summary
+            title: `🤖 AI Learning Report - ${new Date().toLocaleDateString()}`,
+            body: summary,
+            labels: ['ai-learning', 'automation']
           });

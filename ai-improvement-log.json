@@ -3875,5 +3875,3124 @@
       "mediumPriority": 1,
       "estimatedImpact": "Hög"
     }
+  },
+  {
+    "timestamp": "2025-08-20T07:09:29.173Z",
+    "cycle": 0,
+    "insights": {
+      "timestamp": "2025-08-20T07:09:29.170Z",
+      "contentSuggestions": [],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": []
+  },
+  {
+    "timestamp": "2025-08-20T07:09:59.192Z",
+    "cycle": 1,
+    "insights": {
+      "timestamp": "2025-08-20T07:09:59.191Z",
+      "contentSuggestions": [],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": []
+  },
+  {
+    "timestamp": "2025-08-20T07:12:10.777Z",
+    "cycle": 0,
+    "insights": {
+      "timestamp": "2025-08-20T07:12:10.774Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:12:20.787Z",
+    "cycle": 1,
+    "insights": {
+      "timestamp": "2025-08-20T07:12:20.786Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:12:30.809Z",
+    "cycle": 2,
+    "insights": {
+      "timestamp": "2025-08-20T07:12:30.807Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:12:40.816Z",
+    "cycle": 3,
+    "insights": {
+      "timestamp": "2025-08-20T07:12:40.815Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:12:50.836Z",
+    "cycle": 4,
+    "insights": {
+      "timestamp": "2025-08-20T07:12:50.835Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:13:00.854Z",
+    "cycle": 5,
+    "insights": {
+      "timestamp": "2025-08-20T07:13:00.852Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:13:10.870Z",
+    "cycle": 6,
+    "insights": {
+      "timestamp": "2025-08-20T07:13:10.869Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:13:20.885Z",
+    "cycle": 7,
+    "insights": {
+      "timestamp": "2025-08-20T07:13:20.884Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:13:30.892Z",
+    "cycle": 8,
+    "insights": {
+      "timestamp": "2025-08-20T07:13:30.891Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:10.773Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:13:40.907Z",
+    "cycle": 9,
+    "insights": {
+      "timestamp": "2025-08-20T07:13:40.906Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:13:50.924Z",
+    "cycle": 10,
+    "insights": {
+      "timestamp": "2025-08-20T07:13:50.922Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:14:00.933Z",
+    "cycle": 11,
+    "insights": {
+      "timestamp": "2025-08-20T07:14:00.932Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:12:40.815Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:14:10.945Z",
+    "cycle": 12,
+    "insights": {
+      "timestamp": "2025-08-20T07:14:10.944Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:14:20.967Z",
+    "cycle": 13,
+    "insights": {
+      "timestamp": "2025-08-20T07:14:20.966Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:14:30.981Z",
+    "cycle": 14,
+    "insights": {
+      "timestamp": "2025-08-20T07:14:30.980Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:10.869Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:14:41.001Z",
+    "cycle": 15,
+    "insights": {
+      "timestamp": "2025-08-20T07:14:40.999Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:14:40.999Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:40.999Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:14:51.013Z",
+    "cycle": 16,
+    "insights": {
+      "timestamp": "2025-08-20T07:14:51.012Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:14:40.999Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:40.999Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:15:01.022Z",
+    "cycle": 17,
+    "insights": {
+      "timestamp": "2025-08-20T07:15:01.021Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:13:40.906Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:14:40.999Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:40.999Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:15:11.043Z",
+    "cycle": 18,
+    "insights": {
+      "timestamp": "2025-08-20T07:15:11.042Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:14:40.999Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:40.999Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:15:11.042Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:15:11.042Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:15:21.063Z",
+    "cycle": 19,
+    "insights": {
+      "timestamp": "2025-08-20T07:15:21.062Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:14:40.999Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:40.999Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:15:11.042Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:15:11.042Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-20T07:15:31.083Z",
+    "cycle": 20,
+    "insights": {
+      "timestamp": "2025-08-20T07:15:31.080Z",
+      "contentSuggestions": [
+        {
+          "type": "new_article",
+          "topic": "machine learning",
+          "title": "Vad du behöver veta om Machine Learning i RFID",
+          "description": "En djupgående guide om machine learning och dess betydelse för RFID-teknik",
+          "priority": "high"
+        },
+        {
+          "type": "new_article",
+          "topic": "IoT automation",
+          "title": "IoT Automation: Framtidens lösning för företag",
+          "description": "Hur IoT och automation kan förvandla din verksamhet",
+          "priority": "high"
+        }
+      ],
+      "seoSuggestions": [
+        {
+          "type": "meta_optimization",
+          "description": "Optimera meta beskrivningar för alla sidor",
+          "impact": "high"
+        },
+        {
+          "type": "internal_linking",
+          "description": "Förbättra intern länkning mellan relaterade sidor",
+          "impact": "medium"
+        }
+      ],
+      "technicalSuggestions": [
+        {
+          "type": "page_speed",
+          "description": "Optimera bildstorlekar och caching",
+          "impact": "high"
+        }
+      ]
+    },
+    "webSearchResults": [
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:10.944Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:14:40.999Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:14:40.999Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      },
+      {
+        "keyword": "AI RFID solutions",
+        "timestamp": "2025-08-20T07:15:11.042Z",
+        "results": [
+          {
+            "title": "AI-Powered RFID Solutions for Modern Business",
+            "link": "https://example1.com"
+          },
+          {
+            "title": "How AI is Revolutionizing RFID Technology",
+            "link": "https://example2.com"
+          },
+          {
+            "title": "Top 10 AI RFID Applications in 2025",
+            "link": "https://example3.com"
+          }
+        ],
+        "related_keywords": [
+          "machine learning RFID",
+          "smart inventory",
+          "IoT automation"
+        ]
+      },
+      {
+        "keyword": "digital transformation trends",
+        "timestamp": "2025-08-20T07:15:11.042Z",
+        "results": [
+          {
+            "title": "Digital Transformation Trends 2025",
+            "link": "https://example4.com"
+          },
+          {
+            "title": "The Future of Business Automation",
+            "link": "https://example5.com"
+          },
+          {
+            "title": "AI in Digital Transformation",
+            "link": "https://example6.com"
+          }
+        ],
+        "related_keywords": [
+          "automation trends",
+          "AI business",
+          "digital innovation"
+        ]
+      }
+    ]
   }
 ]
