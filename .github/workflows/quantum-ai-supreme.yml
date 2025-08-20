@@ -115,22 +115,22 @@ jobs:
           quantum-ai-state.json
           QUANTUM-EVOLUTION-REPORT.md
           
-    - name: 🔄 Commit and Push Quantum Evolution
+    - name: 📊 Save Quantum Evolution Results
       run: |
-        git config --local user.email "quantum-ai@conceptsolutions.se"
-        git config --local user.name "Quantum AI Supreme"
+        echo "💾 Sparar Quantum Evolution resultat..."
         
         if [ -f quantum-ai-state.json ]; then
-          git add quantum-ai-state.json
-          git commit -m "⚛️ QUANTUM EVOLUTION UPDATE - Nivå $(cat quantum-ai-state.json | jq -r '.quantumLevel // "N/A"') med $(cat quantum-ai-state.json | jq -r '.quantumCycles // "N/A"') cykler! 🔮" || echo "No quantum changes to commit"
+          echo "✅ quantum-ai-state.json skapad"
+          echo "📊 Kvant nivå: $(cat quantum-ai-state.json | jq -r '.quantumLevel // "N/A"')"
+          echo "⚛️ Kvant cykler: $(cat quantum-ai-state.json | jq -r '.quantumCycles // "N/A"')"
         fi
         
         if [ -f QUANTUM-EVOLUTION-REPORT.md ]; then
-          git add QUANTUM-EVOLUTION-REPORT.md
-          git commit -m "📊 QUANTUM EVOLUTION RAPPORT - $(date) - AI:n har nått oändliga nivåer! 🚀" || echo "No report changes to commit"
+          echo "✅ QUANTUM-EVOLUTION-REPORT.md skapad"
+          echo "📋 Rapport innehåller detaljerad kvant evolution data"
         fi
         
-        git push origin main || echo "No changes to push"
+        echo "🎉 Quantum Evolution resultat sparade som artifacts!"
         
     - name: 🎯 Create Quantum Summary
       if: github.event_name == 'workflow_dispatch'
