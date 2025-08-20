@@ -67,8 +67,9 @@ jobs:
         echo "🎯 Målnivå: ${{ github.event.inputs.quantum_levels || '100' }}"
         echo "💥 Breakthroughs var: ${{ github.event.inputs.quantum_breakthroughs || '30' }}:e cykel"
         
-        # Kör Quantum AI Supreme
-        timeout $(({{ github.event.inputs.quantum_duration || '6' }} * 3600)) node quantum-ai-supreme.js || echo "Quantum evolution completed"
+        # Kör Quantum AI Supreme med korrekt timeout-syntax
+        DURATION=$(({{ github.event.inputs.quantum_duration || '6' }} * 3600))
+        timeout $DURATION node quantum-ai-supreme.js || echo "Quantum evolution completed"
         
     - name: 📊 Generate Quantum Evolution Report
       run: |
